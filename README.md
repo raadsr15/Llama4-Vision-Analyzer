@@ -75,7 +75,7 @@ The application was tested using dermatology-style image prompts to evaluate how
 
 ---
 
-### 🔹 Step 1 — Input Interface (Acne Image Upload)
+### 🔹 Input Interface (Acne Image Upload)
 
 <img width="1512" height="639" alt="image" src="https://github.com/user-attachments/assets/28d0c1b1-79d8-4fc0-9ffc-2bcf46c44cf7" />
 
@@ -88,7 +88,7 @@ The interface allows seamless image upload and prompt entry, preparing the multi
 
 ---
 
-### 🔹 Step 2 — Model Response (Llama 4 Scout)
+### 🔹 Model Response (Llama 4 Scout)
 
 <img width="669" height="924" alt="image" src="https://github.com/user-attachments/assets/7fe0a6e8-a866-43cb-b755-865ce11b95f4" />
 
@@ -97,7 +97,7 @@ The Scout model generates a structured response describing visible skin characte
 
 ---
 
-### 🔹 Step 3 — Model Response (Llama 4 Maverick)
+### 🔹 Model Response (Llama 4 Maverick)
 
 <img width="666" height="920" alt="image" src="https://github.com/user-attachments/assets/c6e36d70-7fef-4e9c-8a24-90558ee79b3b" />
 
