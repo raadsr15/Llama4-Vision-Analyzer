@@ -45,12 +45,36 @@ These models support:
 
 ## 🚀 Features
 
-- 🖼️ Image upload interface
-- 💬 Prompt-based querying
-- 🔄 Switchable model selection
-- ⚡ API-based inference
-- 🛡️ Secure environment variable handling
-- 🧩 Modular backend design
+### 🔧 Backend (FastAPI)
+
+- Built using **FastAPI** for high-performance asynchronous API handling
+- REST endpoint (`/upload_and_query`) for image + prompt processing
+- Image validation using **Pillow (PIL)**
+- Base64 image encoding for multimodal API formatting
+- Secure API key management using **python-dotenv**
+- Structured error handling with `HTTPException`
+- Logging integration for request tracking and debugging
+
+---
+
+### 🎨 Frontend (HTML + TailwindCSS)
+
+- Responsive UI built with **TailwindCSS**
+- Dynamic image preview before submission
+- JavaScript `fetch()` API for asynchronous requests
+- Markdown response rendering using **Marked.js**
+- Dual-response layout for side-by-side model comparison
+- Interactive error handling and loading states
+
+---
+
+### 🧠 Multimodal AI Integration
+
+- Integration with **Llama 4 Scout (17B MoE)**
+- Integration with **Llama 4 Maverick (128E MoE)**
+- Image + text combined into structured multimodal message format
+- Comparative response generation from two Vision-Language models
+- Configurable token limits and inference settings
 
 ---
 
