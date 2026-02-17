@@ -138,4 +138,18 @@ The Maverick model provides a more detailed interpretation, often expanding on l
 - The comparative setup highlights differences in reasoning style and explanation depth.
 - The system performs effectively for educational skin-condition analysis demonstrations.
 
-> ⚠️ Disclaimer: This application is intended for educational and experimental purposes only. It does not provide medical diagnosis.
+## Installation and Usage
+
+1. Clone the repository:
+   
+  ```bash
+  git clone https://github.com/raadsr15/Llama4-Vision-Analyzer.git
+  cd Llama4-Vision-Analyzer
+  ```
+2. Install dependencies:
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+
