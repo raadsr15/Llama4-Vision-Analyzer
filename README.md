@@ -58,7 +58,10 @@ These models support:
 
 ---
 
+
 ## 🏗️ Project Structure
+
+```
 Llama4-Vision-Analyzer/
 │
 ├── app.py                # Main FastAPI application
@@ -67,4 +70,5 @@ Llama4-Vision-Analyzer/
 ├── README.md             # Project documentation
 │
 └── templates/
-    └── index.html        # Frontend interface 
+    └── index.html        # Frontend interface (HTML + TailwindCSS)
+```
