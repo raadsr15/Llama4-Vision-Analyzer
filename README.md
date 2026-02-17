@@ -59,3 +59,12 @@ These models support:
 ---
 
 ## 🏗️ Project Structure
+Llama4-Vision-Analyzer/
+│
+├── app.py                # Main FastAPI application
+├── requirements.txt      # Python dependencies
+├── .env.example          # Example environment variable file
+├── README.md             # Project documentation
+│
+└── templates/
+    └── index.html        # Frontend interface 
