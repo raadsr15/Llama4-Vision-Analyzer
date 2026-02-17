@@ -77,7 +77,8 @@ The application was tested using dermatology-style image prompts to evaluate how
 
 ### 🔹 Input Interface (Acne Image Upload)
 
-<img width="1512" height="639" alt="image" src="https://github.com/user-attachments/assets/28d0c1b1-79d8-4fc0-9ffc-2bcf46c44cf7" />
+<img width="1383" height="632" alt="image" src="https://github.com/user-attachments/assets/c6abd300-f7e3-4fdf-a948-f25f5bdde05e" />
+
 
 
 The user uploads an acne-affected facial image and provides a prompt such as:
