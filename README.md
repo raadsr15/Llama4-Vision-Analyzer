@@ -68,3 +68,49 @@ Llama4-Vision-Analyzer/
 └── templates/
     └── index.html        # Frontend interface (HTML + TailwindCSS)
 ```
+
+## 📊 Results
+
+The application was tested using dermatology-style image prompts to evaluate how effectively the two Vision-Language models interpret visible skin conditions and generate structured explanations. The examples below demonstrate the complete workflow — from image upload to comparative model responses.
+
+---
+
+### 🔹 Step 1 — Input Interface (Acne Image Upload)
+
+<img width="1512" height="639" alt="image" src="https://github.com/user-attachments/assets/28d0c1b1-79d8-4fc0-9ffc-2bcf46c44cf7" />
+
+
+The user uploads an acne-affected facial image and provides a prompt such as:
+
+> *"Analyze this skin condition and describe possible characteristics and observations."*
+
+The interface allows seamless image upload and prompt entry, preparing the multimodal input for processing by the selected Vision model.
+
+---
+
+### 🔹 Step 2 — Model Response (Llama 4 Scout)
+
+<img width="669" height="924" alt="image" src="https://github.com/user-attachments/assets/7fe0a6e8-a866-43cb-b755-865ce11b95f4" />
+
+
+The Scout model generates a structured response describing visible skin characteristics such as inflammation, lesion distribution, redness patterns, and surface texture. The output demonstrates strong visual grounding and context-aware reasoning based on the uploaded image.
+
+---
+
+### 🔹 Step 3 — Model Response (Llama 4 Maverick)
+
+<img width="666" height="920" alt="image" src="https://github.com/user-attachments/assets/c6e36d70-7fef-4e9c-8a24-90558ee79b3b" />
+
+
+The Maverick model provides a more detailed interpretation, often expanding on lesion morphology, severity indicators, and broader contextual observations. This enables side-by-side comparison of reasoning depth, clarity, and descriptive detail between the two models.
+
+---
+
+### 🧠 Observations
+
+- Both models successfully identify visible acne-related features.
+- Responses demonstrate strong visual-text alignment.
+- The comparative setup highlights differences in reasoning style and explanation depth.
+- The system performs effectively for educational skin-condition analysis demonstrations.
+
+> ⚠️ Disclaimer: This application is intended for educational and experimental purposes only. It does not provide medical diagnosis.
